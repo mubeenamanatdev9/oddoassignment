@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="estate_property_tag_record" model="ir.actions.act_window">
+        <field name="name">propertiestag</field>
+        <field name="res_model">estate.property.tags</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+            id="estate_properties_tag_menu"
+            name="propertiestag"
+            action="estate_property_tag_record"
+            parent="estate_advertisement_menuitem2" >
+    </menuitem>
+
+</odoo>
